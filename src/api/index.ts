@@ -1,7 +1,9 @@
 import cors from "@koa/cors";
 import { PORT } from "config";
 import Koa from "koa";
+import mount from "koa-mount";
 import Router from "koa-router";
+import serve from "koa-static";
 import { inspect } from "util";
 
 import { REST_STATUS } from "../constants";
@@ -9,9 +11,9 @@ import { RestError } from "./rest-error";
 import { routes } from "./routes";
 
 function initRouter() {
-  const router = new Router({ prefix: "/api/v1" });
+  const router = new Router();
   for (const path of Object.keys(routes)) {
-    router.get(path, async (ctx) => {
+    router.get(path, async ctx => {
       try {
         const result = await routes[path](ctx);
         ctx.status = REST_STATUS.OK;
@@ -36,11 +38,30 @@ function initRouter() {
 export async function startApi() {
   const app = new Koa();
   app.use(cors());
-  app.use(initRouter().routes());
-  app.use((ctx) => {
+
+  app.use(async (ctx, next) => {
+    console.log(ctx.request.path);
+    if (
+      !/^\/static(\/.*?)$/.test(ctx.request.path) &&
+      !/^\/api(\/.*)?$/.test(ctx.request.path) &&
+      ctx.request.path !== "/favicon.ico"
+    ) {
+      ctx.request.path = "/";
+    }
+    await next();
+  });
+  const staticPages = new Koa();
+  staticPages.use(serve("deps/nl-ktane-frontend/build"));
+  app.use(mount("/", staticPages));
+
+  const api = new Koa();
+  api.use(initRouter().routes());
+  api.use(ctx => {
     ctx.status = REST_STATUS.METHOD_NOT_ALLOWED;
     ctx.body = { status: REST_STATUS.METHOD_NOT_ALLOWED, error: "Method not allowed" };
   });
-  await new Promise<void>((resolve) => app.listen(PORT, () => resolve()));
+  app.use(mount("/api/v1", api));
+
+  await new Promise<void>(resolve => app.listen(PORT, () => resolve()));
   console.log(`API started on http://localhost:${PORT}`);
 }

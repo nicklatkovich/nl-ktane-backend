@@ -34,5 +34,6 @@
     "strictNullChecks": true,
     "strictPropertyInitialization": true,
     "resolveJsonModule": true,
-  }
+  },
+  "include": ["types", "src"]
 }
