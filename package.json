@@ -7,7 +7,6 @@
   "scripts": {
     "start:dev": "ts-node src/index.ts",
     "start": "node dist/index.js",
-    "build": "tsc",
     "lint": "eslint \"./apps/**/*.ts\"",
     "lint:fix": "eslint \"./apps/**/*.ts\" --fix"
   },
