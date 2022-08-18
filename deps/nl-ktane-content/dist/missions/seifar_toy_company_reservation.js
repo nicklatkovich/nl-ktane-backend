@@ -1,0 +1,128 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.seifar_toy_company_reservation = void 0;
+exports.seifar_toy_company_reservation = {
+    name: "Seifar Toy Company Reservation",
+    missionPack: "Duties of a Seasoned Mixologist",
+    time: 60 * 60,
+    strikes: 3,
+    widgets: 5,
+    completions: [
+        {
+            time: 45 * 60 + 27,
+            vid: "https://www.youtube.com/watch?v=moquMb1maS4",
+            completers: { defuser: "Zaakeil", experts: ["KittyAshy"] },
+        },
+        { time: 43 * 60 + 3, log: "file=720a035d996bdb177d713c75933bdabfe22818cb;bomb=7S0WL9", completer: "LegendWilleh" },
+        { time: 37 * 60 + 37, log: "file=65fa123ac96b48421b8b81a6d595708e59484f7a;bomb=9K4EE5", completer: "Crazycaleb" },
+        { time: 37 * 60 + 33, log: "file=3877b11d38fcdc4b0e33124abca276c919c479c4;bomb=JC6KA3", completer: "Miki2003pl" },
+        {
+            time: 37 * 60 + 21,
+            vid: "https://www.youtube.com/watch?v=eZfk0-0bPGg&feature=youtu.be",
+            completers: { defuser: "Wheaty", experts: ["Copperkettle", "MageMage"] },
+        },
+        {
+            time: 37 * 60 + 12,
+            vid: "https://www.youtube.com/watch?v=2vzyxHmdzqU",
+            completers: { defuser: "KittyAshy", experts: ["Cookiepocalypse", "Zaakeil"] },
+        },
+        {
+            time: 35 * 60 + 44,
+            vid: "https://www.youtube.com/watch?v=FjpEr-l2EEc&feature=youtu.be",
+            completers: { defuser: "Dicey", experts: ["Fcbdaboss", "Zans"] },
+        },
+        { time: 35 * 60 + 11, log: "file=b3d161e28623040f590aa0fbe06837fa2672f247;bomb=FD2PF9", completer: "Pokemine" },
+        {
+            time: 33 * 60 + 33,
+            log: "file=9d6545daea2b1e0991ffda4b4e479e0f4c43f41f;bomb=143KE9",
+            completers: { defuser: "Puddle", experts: ["Cooldoom"] },
+        },
+        { time: 33 * 60 + 22, log: "file=0beafe6c019cd00ca2a842395de0c4717eae7c35;bomb=SQ9HW2", completer: "Zefod" },
+        {
+            time: 33 * 60 + 5,
+            log: "file=fbd73a7132ab9acc90fc5505cc99c508963825ae;bomb=4Q3EM7",
+            completers: { defuser: "Puddle", experts: ["Danumbah"] },
+        },
+        { time: 32 * 60 + 1, log: "file=cc7b39c233251f2f5119e23dde0a0cfeea5e0bd2;bomb=RC9MZ2", completer: "Whalien" },
+        {
+            time: 30 * 60 + 55,
+            log: "file=359f93d8fe940eb5e7d4fa5dfbb75d9468575bbd;bomb=W99XJ1",
+            completers: { defuser: "Alissa", experts: ["Puddle"] },
+        },
+        { time: 29 * 60 + 57, log: "file=46d023599e599cca56036d4f587eda2dd2f01f2a;bomb=0K2VC0", completer: "ManiaMate" },
+        { time: 28 * 60 + 27, log: "file=e35b09fa4b085d2a64982ee7e299cd4121df81d9;bomb=854JH4", completer: "Asmir" },
+        { time: 28 * 60 + 25, log: "file=714ed86ec0d8f97882c0e84f35b319b2b4f28880;bomb=592XX9", completer: "Ugh_Sunlight" },
+        {
+            time: 28 * 60 + 11,
+            log: "file=b741c98212120b07937ddab470d6d569cc075762;bomb=N47NP8",
+            completers: { defuser: "DieBestenRutschen", experts: ["GiveMeHeals"] },
+        },
+        { time: 28 * 60 + 5, log: "file=51e9a6596bb08c35604d0310599a2b3bf2e18009;bomb=WT2AS8", completer: "MásQuéÉlite" },
+        { time: 27 * 60 + 53, log: "file=340ce930e840ca2dade3e5217286f17ef201cfba;bomb=W24XJ0", completer: "Puddle" },
+        {
+            time: 27 * 60 + 8,
+            vid: "https://www.twitch.tv/videos/1420966648",
+            completers: { defuser: "PippyInATopHat", experts: ["DeaderSurvival", "Pesh"] },
+        },
+        {
+            time: 26 * 60 + 38,
+            vid: "https://www.youtube.com/watch?v=qah7EEpsp38",
+            completers: { defuser: "Benjamin", experts: ["Bianca"] },
+        },
+        { time: 26 * 60 + 18, log: "file=cb917e0f5c9b7d5cfb5fc5309025f7d58f096e08", completer: "Burniel" },
+        {
+            time: 25 * 60 + 17,
+            vid: "https://www.youtube.com/watch?v=-70IWNnrNu0",
+            completers: { defuser: "mcd", experts: ["Aero", "M3Times"] },
+        },
+        { time: 25 * 60 + 11, log: "file=ff1e1c3b170877c70b02eb79cede84dcd9b180ba;bomb=CN8ET3", completer: "Vincology" },
+        { time: 24 * 60 + 54, log: "file=b98761ef9853baddd1969eec744340cf6eabab9f;bomb=7D7EZ5", completer: "Garuda" },
+        { time: 21 * 60 + 14, log: "file=7d8fe96ad748efc1cd8f9052fc61f7e3ae029482;bomb=2E1NU5", completer: "Mr. Punchy" },
+        {
+            time: 21 * 60 + 7,
+            log: "file=43c063f40c46eee521264ec69cfaa143b7d1a4bb;bomb=UD5RS1",
+            completers: { defuser: "JMan Zx", experts: ["Ulv"] },
+        },
+        { time: 20 * 60 + 44, log: "file=9b74d7102f098ad6f023d4fff592c86a1c7e783d;bomb=1B8AN0", completer: "Edan" },
+        { time: 20 * 60 + 7, vid: "https://www.youtube.com/watch?v=znQ4vqBMzfA", completer: "Espik" },
+        {
+            time: 19 * 60 + 54,
+            log: "file=ce4b29dbb4b7227bfcb873675ffb443d611cbc88;bomb=GV3GA6",
+            completer: "Sam Porter Bridges",
+        },
+        { time: 19 * 60 + 50, log: "file=7a8bbe6ffd364de3aefdc66a6ae9c1c9bb07bd47;bomb=RI8EA0", completer: "DarkSly" },
+        { time: 17 * 60 + 57, log: "file=f441c36c9c10b7e01d96f03ea991d7d754c41f06;bomb=R38NQ2", completer: "Chestnut" },
+        { time: 17 * 60 + 56, log: "file=10cbf3729df4000c0a5eb1531d5b4d5c30396f2b;bomb=R25PQ4", completer: "Danumbah" },
+        {
+            time: 15 * 60 + 56,
+            vid: "https://www.youtube.com/watch?v=FxQEoeOPUwU",
+            completers: { defuser: "RandomKugelblitz", experts: ["Gwendolyn"] },
+        },
+        { time: 14 * 60 + 33, log: "file=b4a9b45b65a886d31daa1462e96c2adc5877cfe5", completer: "aGood_Usernam3" },
+        { time: 13 * 60 + 23, log: "file=ce979e559f55c71a4350ed00c5dafa08fa5f1eae", completer: "Depresso" },
+        {
+            time: 13 * 60 + 3,
+            vid: "https://www.youtube.com/watch?v=C6Nstwbf6Vw",
+            completers: { defuser: "Aaron Kitty Boiii", experts: ["Sonoko Sakanoue"] },
+        },
+        { time: 12 * 60 + 4, log: "file=13b50239b458f35552438b4f94e87c6ed3735228;bomb=T89XL5", completer: "Diffuse" },
+        { time: 8 * 60 + 42, vid: "https://www.youtube.com/watch?v=E7F4VoV0gjs&feature=youtu.be", completer: "Deaf" },
+        {
+            time: 5 * 60 + 34,
+            log: "file=d7a9190be93220c2ba4e3d1fbdee4590c9791a4a;bomb=UC6NZ0",
+            completers: { defuser: "Fish", experts: ["Deaf"] },
+        },
+        { time: 8, log: "file=a435972cf6a60c60204377b49c73d29fc16a6e0a;bomb=450AM0", completer: "VFlyer" },
+        {
+            time: 24 * 60 + 5,
+            isFirst: true,
+            scr: "https://cdn.discordapp.com/attachments/306830460443426816/650125827417309194/Screenshot_79.png",
+            completer: "Crazycaleb",
+        },
+    ],
+    modules: [
+        [27, "BartendingModule"],
+        [12, "hangover"],
+        [8, "NeedyBeer"],
+    ],
+};

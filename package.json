@@ -17,8 +17,8 @@
     "koa-mount": "^4.0.0",
     "koa-router": "^12.0.0",
     "koa-static": "^5.0.0",
-		"nl-ktane-lib": "github:nicklatkovich/nl-ktane-lib#dist",
-		"nl-ktane-content": "github:nicklatkovich/nl-ktane-content#dist"
+		"nl-ktane-lib": "file:./deps/nl-ktane-lib",
+		"nl-ktane-content": "file:./deps/nl-ktane-content"
   },
   "devDependencies": {
     "@types/koa": "^2.13.5",

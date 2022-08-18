@@ -1,0 +1,66 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.wire_madness = void 0;
+exports.wire_madness = {
+    name: "Wire Madness",
+    missionPack: "DarkSly's Madness Pack",
+    time: 70 * 60,
+    strikes: 4,
+    widgets: 5,
+    completions: [
+        {
+            time: 29 * 60 + 29,
+            vid: "https://www.youtube.com/watch?v=122lAWMl2uk",
+            completers: { defuser: "Danielstigman", experts: ["Miki2003pl", "Puddle"] },
+        },
+        {
+            time: 28 * 60 + 57,
+            log: "file=d511add951919510a247d9882186e32cc369d92d;bomb=RE5UU1",
+            completer: "Cookiepocalypse",
+        },
+        {
+            time: 21 * 60 + 53,
+            isFirst: true,
+            log: "file=d511add951919510a247d9882186e32cc369d92d;bomb=RE5UU1",
+            completer: "LegendWilleh",
+        },
+        {
+            time: 19 * 60 + 32,
+            log: "file=9da4236a2b7c54e9807cfca13484d87f1811a8ac;bomb=179GZ5",
+            completer: "aGood_Usernam3",
+        },
+        {
+            time: 17 * 60 + 54,
+            log: "file=ddf6eeabc62886b30d82c40f26bce7524caca85c;bomb=EA8WU2",
+            completers: { defuser: "Dicey", experts: ["Fish", "Garuda"] },
+        },
+        { time: 15 * 60 + 47, log: "file=1da2d5f0aef43bedf7c158c3dc9691c69b6cd93a;bomb=K61AP0", completer: "Lily" },
+        { time: 15 * 60 + 10, log: "file=dcb8e454d8e67595d69762f6d1be6f9f122877c4;bomb=UT7EH5", completer: "Zefod" },
+        { time: 14 * 60 + 25, log: "file=8bc7491069e8f4b3660079c52a6481c8fe0286d8;bomb=4P8EA0", completer: "ManiaMate" },
+        { time: 6 * 60 + 25, log: "file=b6b26b66f855c90153b1f64d799884a29367a0c2;bomb=BR5RM3", completer: "Ugh_Sunlight" },
+        { time: 4 * 60 + 24, log: "file=6cdbb8e13a56867211c270ea0017ac2864c2523b;bomb=HD0NM8", completer: "Diffuse" },
+    ],
+    solvedByTP: true,
+    modules: [
+        [2, "booleanWires"],
+        [2, "Venn"],
+        [2, "Wires"],
+        [2, "WireSequence"],
+        [3, "FollowTheLeaderModule"],
+        "forgetThemAll",
+        [2, "NotComplicatedWires"],
+        [3, "NotWireSequence"],
+        [3, "NotWiresword"],
+        [3, "PerplexingWiresModule"],
+        [3, "Probing"],
+        [3, "riskyWires"],
+        [2, "sevenWires"],
+        [2, "skinnyWires"],
+        [2, "thinkingWiresModule"],
+        [2, "wire"],
+        [2, "kataWireOrdering"],
+        [2, "WirePlacementModule"],
+        [3, "wireSpaghetti"],
+        [3, "BinaryLeds"],
+    ],
+};

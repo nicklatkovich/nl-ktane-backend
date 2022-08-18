@@ -1,0 +1,45 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.keypad_madness = void 0;
+exports.keypad_madness = {
+    name: "Keypad Madness",
+    missionPack: "DarkSly's Madness Pack",
+    time: 70 * 60,
+    strikes: 4,
+    widgets: 5,
+    completions: [
+        {
+            time: 4 * 60 + 41,
+            isFirst: true,
+            log: "file=41029d35a28ef2021a5acb8ae1c5894c18a6ea5b;bomb=MM5KT4",
+            completer: "Diffuse",
+        },
+    ],
+    modules: [
+        ["alphabeticOrder", "triangleButtons", "triangleButtons", "triangleButtons", "triangleButtons"],
+        [2, "Keypad"],
+        [2, "xelAnotherKeypadModule"],
+        [2, "AudioKeypad"],
+        [2, "BooleanKeypad"],
+        [2, "chineseCounting"],
+        [2, "complexKeypad"],
+        [2, "CruelKeypads"],
+        [2, "keypadCombinations"],
+        "KeypadDirectionality",
+        [2, "kookyKeypadModule"],
+        [2, "NotKeypad"],
+        [2, "KeypadV2"],
+        [2, "siffron"],
+        [2, "unrelatedAnagrams"],
+        [2, "valuedKeysModule"],
+        [2, "LEDEnc"],
+        [2, "LetterKeys"],
+        [2, "lgndColoredKeys"],
+        [2, "faultyChineseCounting"],
+        [2, "KanjiModule"],
+        [2, "MusicRhythms"],
+        "WildSide",
+        [2, "SaimoePad"],
+        [2, "ColoredLetters"],
+    ],
+};

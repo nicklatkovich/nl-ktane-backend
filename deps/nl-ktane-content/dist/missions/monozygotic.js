@@ -1,0 +1,50 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.monozygotic = void 0;
+exports.monozygotic = {
+    name: "Monozygotic",
+    missionPack: "Tepel's Missions",
+    time: 72 * 60,
+    strikes: 5,
+    widgets: 5,
+    completions: [
+        {
+            time: 23 * 60 + 50,
+            log: "file=c1e62cfb9160ff26e4055543db628f9581e1544d;bomb=2E8NV7",
+            completers: { defuser: "Edan", experts: ["Burniel", "Zefod"] },
+        },
+        { time: 10 * 60 + 31, log: "file=54c9caeb8ede699b586ae0d8802149ec1b53b936;bomb=263SF5", completer: "LegendWilleh" },
+        {
+            time: 9 * 60 + 6,
+            isFirst: true,
+            vid: "https://www.youtube.com/watch?v=gZWVynG4pN0&feature=youtu.be",
+            completer: "Draket",
+        },
+    ],
+    modules: [
+        [2, "TheTwinModule"],
+        [2, "BigCircle"],
+        [2, "BlackHoleModule"],
+        [2, "troll"],
+        [2, "combinationLock"],
+        [2, "PressX"],
+        [2, "theNumber"],
+        [2, "MistakeModule"],
+        [2, "DividedSquaresModule"],
+        [2, "BlindMaze"],
+        [2, "sevenWires"],
+        [2, "burglarAlarm"],
+        [2, "CruelPianoKeys"],
+        [2, "TurnTheKeyAdvanced"],
+        [2, "MazeV2"],
+        [2, "OrientationCube"],
+        [2, "TwoBits"],
+        [2, "Listening"],
+        [2, "treasureHunt"],
+        [2, "Semaphore"],
+        [2, "BattleshipModule"],
+        [2, "SplittingTheLootModule"],
+        [2, "AppreciateArt"],
+        [2, "TheHeart"],
+    ],
+};
